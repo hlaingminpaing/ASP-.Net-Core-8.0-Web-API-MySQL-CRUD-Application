@@ -1,0 +1,211 @@
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\appsettings.json
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\MyApiProject.exe
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\MyApiProject.deps.json
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\MyApiProject.runtimeconfig.json
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\MyApiProject.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\MyApiProject.pdb
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Humanizer.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.csproj.AssemblyReference.cache
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.AssemblyInfoInputs.cache
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.AssemblyInfo.cs
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.csproj.CoreCompileInputs.cache
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.sourcelink.json
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\staticwebassets\msbuild.MyApiProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\staticwebassets\msbuild.build.MyApiProject.props
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyApiProject.props
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyApiProject.props
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\scopedcss\bundle\MyApiProject.styles.css
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiPro.5C43D768.Up2Date
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.dll
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\refint\MyApiProject.dll
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.pdb
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\MyApiProject.genruntimeconfig.cache
+C:\Users\hm.paing\MyApiProject\obj\Debug\net8.0\ref\MyApiProject.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\appsettings.Development.json
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\appsettings.json
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\MyApiProject.exe
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\MyApiProject.deps.json
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\MyApiProject.runtimeconfig.json
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\MyApiProject.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\MyApiProject.pdb
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Humanizer.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\MySqlConnector.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\System.CodeDom.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.csproj.AssemblyReference.cache
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.AssemblyInfoInputs.cache
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.AssemblyInfo.cs
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.csproj.CoreCompileInputs.cache
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.MvcApplicationPartsAssemblyInfo.cs
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.MvcApplicationPartsAssemblyInfo.cache
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\staticwebassets.build.json
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\staticwebassets.development.json
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\staticwebassets\msbuild.MyApiProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\staticwebassets\msbuild.build.MyApiProject.props
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyApiProject.props
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyApiProject.props
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\staticwebassets.pack.json
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\scopedcss\bundle\MyApiProject.styles.css
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiPro.5C43D768.Up2Date
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.dll
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\refint\MyApiProject.dll
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.pdb
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\MyApiProject.genruntimeconfig.cache
+D:\code\ASP.Net Core Web Api Source Code\obj\Debug\net8.0\ref\MyApiProject.dll
