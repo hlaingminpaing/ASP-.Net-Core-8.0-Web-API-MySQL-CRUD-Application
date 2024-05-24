@@ -47,7 +47,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Assuming you have a deployment script or steps
-                sh './deploy.sh'
+                sh 'dotnet build --configuration Release'
+                sh 'dotnet publish --configuration Release --output ./publish'
             }
         }
     }
