@@ -10,7 +10,9 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/hlaingminpaing/ASP-.Net-Core-8.0-Web-API-MySQL-CRUD-Application.git'
+                checkout([$class: 'GitSCM',
+                          branches: [[name: '*/main']],
+                          userRemoteConfigs: [[url: 'https://github.com/hlaingminpaing/ASP-.Net-Core-8.0-Web-API-MySQL-CRUD-Application.git']]])
             }
         }
 
@@ -34,6 +36,7 @@ pipeline {
 
         stage('Apply Migrations') {
             steps {
+                sh 'dotnet tool restore'
                 sh "dotnet ef database update --connection '${env.CONNECTION_STRING}'"
             }
         }
@@ -62,4 +65,3 @@ pipeline {
         }
     }
 }
-
