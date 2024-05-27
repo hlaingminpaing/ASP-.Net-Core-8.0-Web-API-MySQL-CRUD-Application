@@ -2,66 +2,74 @@ pipeline {
     agent any
 
     environment {
-        DOTNET_ROOT = "/usr/bin/dotnet"
-        PATH = "${DOTNET_ROOT}:${env.PATH}"
-        CONNECTION_STRING = "Server=crud.cvrlgpla3e5u.ap-southeast-1.rds.amazonaws.com;Database=crud;User=root;Password=asd123123;"
+        DOTNET_CLI_HOME = "C:\\Program Files\\dotnet"
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                checkout([$class: 'GitSCM',
-                          branches: [[name: '*/main']],
-                          userRemoteConfigs: [[url: 'https://github.com/hlaingminpaing/ASP-.Net-Core-8.0-Web-API-MySQL-CRUD-Application.git']]])
-            }
-        }
-
-        stage('Restore Dependencies') {
-            steps {
-                sh 'dotnet restore'
+                checkout([$class: 'GitSCM', 
+                branches: [[name: '*/main']],
+                userRemoteConfigs: [[url: 'https://github.com/hlaingminpaing/ASP-.Net-Core-8.0-Web-API-MySQL-CRUD-Application.git']]])
             }
         }
 
         stage('Build') {
             steps {
-                sh 'dotnet build --configuration Release'
+                script {
+                    // Restoring dependencies
+                    //bat "cd ${DOTNET_CLI_HOME} && dotnet restore"
+                    bat "dotnet restore"
+
+                    // Building the application
+                    bat "dotnet build --configuration Release"
+                }
             }
         }
 
-        stage('Run Tests') {
+        stage('Test') {
             steps {
-                sh 'dotnet test --no-build --verbosity normal'
-            }
-        }
-
-        stage('Apply Migrations') {
-            steps {
-                sh 'dotnet tool restore'
-                sh "dotnet ef database update --connection '${env.CONNECTION_STRING}'"
+                script {
+                    // Running tests
+                    bat "dotnet test --no-restore --configuration Release"
+                }
             }
         }
 
         stage('Publish') {
             steps {
-                sh 'dotnet publish --configuration Release --output ./publish'
+                script {
+                    // Publishing the application
+                    bat "dotnet publish --no-restore --configuration Release --output .\\publish"
+                }
             }
         }
-
         stage('Deploy') {
             steps {
-                // Assuming you have a deployment script or steps
-                sh 'dotnet build --configuration Release'
-                sh 'dotnet publish --configuration Release --output ./publish'
+                script {
+                    withCredentials([usernamePassword(credentialsId: 'coreuser', passwordVariable: 'CREDENTIAL_PASSWORD', usernameVariable: 'CREDENTIAL_USERNAME')]) {
+                    powershell '''
+                    
+                    $credentials = New-Object System.Management.Automation.PSCredential($env:CREDENTIAL_USERNAME, (ConvertTo-SecureString $env:CREDENTIAL_PASSWORD -AsPlainText -Force))
+
+                    
+                    New-PSDrive -Name X -PSProvider FileSystem -Root "\\\\EC2AMAZ-DNKSSGU\\restapi" -Persist -Credential $credentials
+
+                    
+                    Copy-Item -Path '.\\publish\\*' -Destination 'X:\' -Force
+
+                    
+                    Remove-PSDrive -Name X
+                    '''
+                }
+                }
             }
         }
     }
 
     post {
         success {
-            echo 'Build and deployment succeeded!'
-        }
-        failure {
-            echo 'Build or deployment failed.'
+            echo 'Build, test, and publish successful!'
         }
     }
 }
