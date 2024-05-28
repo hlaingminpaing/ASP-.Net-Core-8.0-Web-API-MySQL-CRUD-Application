@@ -1,0 +1,89 @@
+pipeline {
+    agent any
+
+    environment {
+	DOTNET_ROOT = "/usr/bin/dotnet"
+	PATH = "${DOTNET_ROOT}:${env.PATH}"
+	CONNECTION_STRING = "Server= 172.31.27.245;Database=crud;User=root;Password=asd123!@#;"
+        DOTNET_VERSION = '8.0'
+        BUILD_DIR = 'build'
+        PUBLISH_DIR = "${env.WORKSPACE}/${env.BUILD_DIR}/publish"
+        REMOTE_USER = 'jenkins'
+        REMOTE_HOST = '172.31.27.245'
+        REMOTE_PATH = 'C:restapi'
+    }
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                checkout([$class: 'GitSCM',
+                          branches: [[name: '*/main']],
+                          userRemoteConfigs: [[url: 'https://github.com/hlaingminpaing/ASP-.Net-Core-8.0-Web-API-MySQL-CRUD-Application.git']]])
+            }
+        }
+
+        stage('Build and Publish') {
+            steps {
+                // Restore, build, and publish the .NET Core application
+                script {
+                    sh """
+                        dotnet restore
+                        dotnet build --configuration Release
+                        
+                    """
+                }
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                // Publish the .NET Core application
+                script {
+                    sh """
+                        dotnet publish --configuration Release --output ${env.PUBLISH_DIR}
+                    """
+                }
+            }
+        }
+
+         stage('Deploy') {
+            steps {
+                script {
+                    withCredentials([usernamePassword(credentialsId: 'coreuser', passwordVariable: 'CREDENTIAL_PASSWORD', usernameVariable: 'CREDENTIAL_USERNAME')]) {
+                        sh '''
+                        smbclient //172.31.27.245/restapi -U $CREDENTIAL_USERNAME%$CREDENTIAL_PASSWORD -c 'prompt OFF; recurse ON; cd restapi; lcd publish; mput *'
+                        '''
+                    }
+                }
+            }
+        }
+
+        //stage('Deploy to IIS') {
+            //steps {
+                // Use WinRM or another method to run PowerShell commands on the remote Windows server
+                //script {
+                    //withCredentials([usernamePassword(credentialsId: 'windows-server-credentials' , passwordVariable: 'CREDENTIAL_PASSWORD', usernameVariable: 'CREDENTIAL_USERNAME')]) {
+                        //sh """
+                            //winrm quickconfig -q
+                            //winrm set winrm/config/winrs @{MaxMemoryPerShellMB="512"}
+                            //winrm set winrm/config @{MaxTimeoutms="1800000"}
+                            //winrm set winrm/config/service @{AllowUnencrypted="true"}
+                            //winrm set winrm/config/service/auth @{Basic="true"}
+
+                            //winrs -r:${env.REMOTE_HOST} -u:${env.REMOTE_USER} -p:%PASSWORD% powershell -Command "Stop-WebAppPool -Name 'restapi'"
+                            //winrs -r:${env.REMOTE_HOST} -u:${env.REMOTE_USER} -p:%PASSWORD% powershell -Command "Remove-Item -Recurse -Force ${env.REMOTE_PATH}/*"
+                            //winrs -r:${env.REMOTE_HOST} -u:${env.REMOTE_USER} -p:%PASSWORD% powershell -Command "Copy-Item -Path '${env.PUBLISH_DIR}/*' -Destination '${env.REMOTE_PATH}' -Recurse"
+                            //winrs -r:${env.REMOTE_HOST} -u:${env.REMOTE_USER} -p:%PASSWORD% powershell -Command "Start-WebAppPool -Name 'restapi'"
+                        //"""
+                    //}
+                //}
+            //}
+        //}
+    }
+
+    post {
+        always {
+            cleanWs()
+        }
+    }
+}
